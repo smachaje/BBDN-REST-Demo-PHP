@@ -20,7 +20,6 @@ var_dump($token);
 
 $access_token = $token->access_token;
 
-
 $datasource = $rest->createDatasource($access_token);
 var_dump($datasource);
 
@@ -65,7 +64,6 @@ $user_id = $user->id;
 $user = $rest->readUser($access_token, $user_id);
 var_dump($user);
 
-
 $user = $rest->updateUser($access_token, $dsk_id, $user_id, $user->uuid, $user->created);
 var_dump($user);
 
@@ -75,10 +73,8 @@ var_dump($membership);
 $membership = $rest->readMembership($access_token, $course_id, $user_id);
 var_dump($membership);
 
-
 $membership = $rest->updateMembership($access_token, $dsk_id, $course_id, $user_id, $membership->created);
 var_dump($membership);
-
 
 $result = $rest->deleteMembership($access_token, $course_id, $user_id);
 var_dump($result);
