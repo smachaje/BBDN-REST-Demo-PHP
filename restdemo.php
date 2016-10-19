@@ -53,7 +53,7 @@ $course = $rest->readCourse($access_token, $course_id);
 var_dump($course);
 
 
-$course = $rest->updateCourse($access_token, $dsk_id, $course_id, $course->uuid, $course->created);
+$course = $rest->updateCourse($access_token, $dsk_id, $course_id, $course->uuid, $course->created, $term_id);
 var_dump($course);
 
 $user = $rest->createUser($access_token, $dsk_id);
