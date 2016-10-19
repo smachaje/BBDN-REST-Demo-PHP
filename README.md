@@ -42,4 +42,4 @@ To run the code, ensure you have followed the steps to configure the sample code
 
 	
 ### Conclusion
-This code will give you the base knowledge you need to interact with the Blackboard Learn REST services using PHP. For a thorough walkthrough of this code, visit the corresponding Blackboard Help page <a href="https://community.blackboard.com/community/developers/rest" target="_blank">here</a>.
+This code will give you the base knowledge you need to interact with the Blackboard Learn REST services using PHP. For a thorough walkthrough of this code, visit the corresponding Community site page <a href="https://community.blackboard.com/docs/DOC-1687" target="_blank">here</a>.
