@@ -9,5 +9,8 @@
 		public $TERM_PATH = '/learn/api/public/v1/terms';
 		public $COURSE_PATH = '/learn/api/public/v1/courses';
 		public $USER_PATH = '/learn/api/public/v1/users';
+		
+		public $ssl_verify_peer = TRUE;
+		public $ssl_verify_host = TRUE;
 	}
 ?>
