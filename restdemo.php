@@ -90,3 +90,5 @@ var_dump($result);
 
 $result = $rest->deleteDatasource($access_token,$dsk_id);
 var_dump($result);
+
+?>
